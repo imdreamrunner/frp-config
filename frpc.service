@@ -1,3 +1,9 @@
+# Reference https://juejin.cn/post/6972566180896702477
+# 
+# Put this file into /usr/lib/systemd/system/
+# Put frpc binary to /usr/bin/frpc
+# Put frpc config to /etc/frp/frpc.ini
+
 [Unit]
 Description = frp client
 After = network.target syslog.target
